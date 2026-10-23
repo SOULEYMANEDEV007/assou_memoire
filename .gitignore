@@ -1,0 +1,72 @@
+# Miscellaneous
+# Flutter/Android build outputs
+**/build/
+*.bin
+*.d
+*.apk
+*.aab
+.android/
+*.salive
+.kotlinc/
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.build/
+.buildlog/
+.history
+.svn/
+.swiftpm/
+migrate_working_dir/
+
+# IntelliJ related
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# Visual Studio Code & IDE configs
+.vscode/
+.run/
+
+# Flutter/Dart/Pub related
+**/doc/api/
+**/ios/Flutter/.last_build_id
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+/build/
+
+# Symbolication related
+app.*.symbols
+
+# Obfuscation related
+app.*.map.json
+
+# Environnement files
+.env*
+
+# Local properties & machine-specific configs
+local.properties
+**/android/local.properties
+
+# Logs and debug files
+build_log*.txt
+*.log
+
+# Android Studio will place build artifacts here
+/android/app/debug
+/android/app/profile
+/android/app/release
+
+# Others
+.*de
+/md
+*.md
+!README.md
+android/app/build/outputs/
+
